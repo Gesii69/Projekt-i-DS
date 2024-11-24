@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Travel Destinations</title>
+    <link rel="stylesheet" href="destination.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="nav-logo">AirTravel</a>
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="destination.html">Destination</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Explore the World with AirTravel</h1>
+            <p>Discover popular destinations and travel with ease.</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <div id="destination-grid">
+                <div class="destination-card">
+                    <img src="images/dubai.jpg" alt="Dubai">
+                    <h3>Dubai,  United Arab Emirates</h3>
+                   
+                </div>
+                <div class="destination-card">
+                    <img src="images/roma.jpg" alt="Roma">
+                    <h3>Roma, Italy</h3>
+                </div>
+                <div class="destination-card">
+                    <img src="images/londonn.jpg" alt="London">
+                    <h3>London, UK</h3>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section id="suggestions">
+            <h2>Find Your Next Adventure</h2>
+            <form id="suggestion-form">
+                <label for="travel-style">Choose your travel style:</label>
+                <select id="travel-style" name="travel-style">
+                    <option value="adventure">Adventure</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="culture">Cultural</option>
+                    <option value="beach">Beach</option>
+                </select>
+                <button type="submit">Get Suggestions</button>
+            </form>
+            <div id="suggestion-result"></div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AirTravel. All rights reserved.</p>
+    </footer>
+
+    <script src="destination.js"></script>
+</body>
+</html>
